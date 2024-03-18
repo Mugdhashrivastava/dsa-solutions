@@ -17,7 +17,7 @@
 }
 
 
-This can give repeating elements of array so ake sure indexes are different
+This can give repeating elements of array so make sure indexes are different
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         
