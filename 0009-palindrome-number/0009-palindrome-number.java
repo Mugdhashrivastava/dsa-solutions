@@ -63,7 +63,7 @@ class Solution {
         
         
         int dig = 0;
-        int reverse = 0;
+        long reverse = 0;
         int tempx = x;
         
         
@@ -77,7 +77,7 @@ class Solution {
             
         }
         
-        if(reverse==x){
+        if((int)reverse==x){
             return true;
         }
         return false;
