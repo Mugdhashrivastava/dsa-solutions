@@ -63,6 +63,8 @@ class Solution {
         
         
         int dig = 0;
+        //taking long is better since given since reverse number can be out of range sometimes so long helps in integer overflow since its 64 bit unlike int which is 32 bit
+        
         long reverse = 0;
         int tempx = x;
         
