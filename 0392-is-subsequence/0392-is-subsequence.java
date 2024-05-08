@@ -20,7 +20,7 @@ class Solution {
         while(tIdx<t.length()){
             
          
-              
+              //Edge Case: If s is an empty string (s.length() is 0), the condition sIdx == s.length() would immediately return true, indicating that an empty string is always a subsequence of any other string. This is also good for optimization and prevent t from incrementing further when found true
             if(sIdx == s.length()){
                 return true;
             }
