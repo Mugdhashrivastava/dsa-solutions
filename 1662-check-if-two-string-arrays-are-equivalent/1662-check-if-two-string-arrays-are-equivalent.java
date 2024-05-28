@@ -2,7 +2,7 @@ class Solution {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
      
         
-        //Create stingBuilder as they are mutable: these str1 and str2 will have combined array of  word1 and word2
+        //Create StringBuilder as they are mutable: these str1 and str2 will have combined array of  word1 and word2
         StringBuilder str1 = new StringBuilder();
         StringBuilder str2 = new StringBuilder();
         
